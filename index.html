@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div id="loginmodal">
+      <form id="loginForm">
+        <h1>Login Here</h1>
+        <input id="loginUsername" type="text" name="username" required placeholder="username">
+        <!-- username -->
+        <input id="loginEmail" type="email" name="email" required placeholder="email">
+        <!-- email -->
+        <input id="loginPassword" type="password" name="password" required placeholder="password">
+        <!-- password -->
+        <button type="submit" name="button">Login</button>
+      </form>
+    </div>
+    <div id="profile">
+      <h1 id="usersName"></h1>
+      <img id="usersImage"/>
+      <h3 id="usersUsername"></h3>
+      <h3 id="usersAge"></h3>
+      <h3 id="usersEmail"></h3>
+    </div>
+    <button id="logout" type="button" onclick="logout()">Logout</button>
+    <script src="app.js"></script>
+  </body>
+</html>

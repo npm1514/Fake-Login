@@ -1,0 +1,52 @@
+body, h1 {
+  margin: 0;
+  font-family: "Oswald";
+}
+
+#loginmodal {
+  width: 300px;
+  height: max-content;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.69);
+  text-align: center;
+  z-index: 10;
+}
+
+#loginmodal h1 {
+  color: #fff;
+}
+
+input, button {
+  font-family: "Oswald";
+  width: 200px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#profile {
+  display: none;
+  width: 50vw;
+  height: max-content;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+#profile img {
+  width: 100%;
+}
+
+#logout {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  display: none;
+}
